@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider} from '@mui/material/styles';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -13,12 +13,12 @@ const theme = createTheme(themeOptions);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter basename="/">
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <App />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
