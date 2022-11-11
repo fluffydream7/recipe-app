@@ -1,0 +1,215 @@
+{
+    "countries": [
+        { "code": "it", "label": "Italian" },
+        { "code": "fr", "label": "French" },
+        { "code": "cn", "label": "Chinese" },
+        { "code": "in", "label": "Indian" },
+        { "code": "kr", "label": "Korean" }
+    ],
+    "timeOfDayOptions": [
+        {
+            "label": "Breakfast",
+            "code": 0
+        },
+        {
+            "label": "Lunch",
+            "code": 1
+        },
+        {
+            "label": "Dinner",
+            "code": 2
+        },
+        {
+            "label": "Snacks",
+            "code": 3
+        }
+    ],
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Tomato Pasta",
+            "picture": "https://www.giallozafferano.com/images/228-22832/spaghetti-with-tomato-sauce_1200x800.jpg",
+            "servings": 2,
+            "preparationTime": 20,
+            "cookingTime": 30,
+            "country": "it",
+            "timeOfDay": [
+                1, 2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Boil pasta",
+                "Combine them all"
+            ],
+            "ingredients": [
+                {
+                    "name": "Tomato",
+                    "amount": "1 can"
+                },
+                {
+                    "name": "Pasta",
+                    "amount": "200g"
+                },
+                {
+                    "name": "Salt",
+                    "amount": "1tsp"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Fried Rice",
+            "picture": "https://www.tastingtable.com/img/gallery/easy-fried-rice-recipe/intro-1654023452.jpg",
+            "servings": 2,
+            "preparationTime": 20,
+            "cookingTime": 20,
+            "country": "cn",
+            "timeOfDay": [
+                1, 2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Cook rice",
+                "Combine them all"
+            ],
+            "ingredients": [
+                {
+                    "name": "Rice",
+                    "amount": "1 cup"
+                },
+                {
+                    "name": "Onion",
+                    "amount": "100g"
+                },
+                {
+                    "name": "Garlic",
+                    "amount": "1 clove"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Bulgogi",
+            "picture": "https://assets.bonappetit.com/photos/57acd741f1c801a1038bc801/8:5/w_4839,h_3024,c_limit/basic-bulgogi.jpg",
+            "servings": 4,
+            "preparationTime": 15,
+            "cookingTime": 20,
+            "country": "kr",
+            "timeOfDay": [
+                1, 2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Marinate beef",
+                "Cook beef and vegetables"
+            ],
+            "ingredients": [
+                {
+                    "name": "Beef",
+                    "amount": "1kg"
+                },
+                {
+                    "name": "Onion",
+                    "amount": "100g"
+                },
+                {
+                    "name": "Rice",
+                    "amount": "3 cups"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Chicken Curry",
+            "picture": "https://images.immediate.co.uk/production/volatile/sites/2/2017/04/Butter-chicken-5e0e51c.jpg?quality=90&resize=700,466",
+            "servings": 5,
+            "preparationTime": 25,
+            "cookingTime": 40,
+            "country": "in",
+            "timeOfDay": [
+                1, 2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Add spices",
+                "Clean the chicken"
+            ],
+            "ingredients": [
+                {
+                    "name": "Chicken",
+                    "amount": "1kg"
+                },
+                {
+                    "name": "Coconut milk",
+                    "amount": "1 can"
+                },
+                {
+                    "name": "Tumeric",
+                    "amount": "2 tblsp"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Dumplings",
+            "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Xiaolongbao-breakfast.jpg/640px-Xiaolongbao-breakfast.jpg",
+            "servings": 2,
+            "preparationTime": 30,
+            "cookingTime": 10,
+            "country": "cn",
+            "timeOfDay": [
+                0, 1, 2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Mix flour and water",
+                "Knead the dough"
+            ],
+            "ingredients": [
+                {
+                    "name": "Pork",
+                    "amount": "500g"
+                },
+                {
+                    "name": "Spring onion",
+                    "amount": "100g"
+                },
+                {
+                    "name": "Flour",
+                    "amount": "3 cups"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Ratatouille",
+            "picture": "https://dwellbymichelle.com/wp-content/uploads/2020/07/DWELL-Easy-Ratatouille.jpg",
+            "servings": 3,
+            "preparationTime": 20,
+            "cookingTime": 30,
+            "country": "fr",
+            "timeOfDay": [
+                2
+            ],
+            "instructions": [
+                "Prepare ingredients",
+                "Cut vegetables",
+                "Make the sauce"
+            ],
+            "ingredients": [
+                {
+                    "name": "Eggplant",
+                    "amount": "3"
+                },
+                {
+                    "name": "Squash",
+                    "amount": "3"
+                },
+                {
+                    "name": "Zucchini",
+                    "amount": "3"
+                }
+            ]
+        }
+    ] 
+}
